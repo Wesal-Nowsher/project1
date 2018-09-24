@@ -204,20 +204,21 @@ p{
 	background: rgba(24, 161, 12, 0.753);
 	color: #fff;
 }
-#menu li a{
+#menu li {
 	text-decoration:none;
 	color: rgba(0, 0, 0, 0.829);
+	cursor:pointer;
 }
-#menu li.active a:hover{
+#menu li.active :hover{
 	color: rgba(62, 173, 90, 0.781);
 }
 #menu li:hover{
 	background: rgba(27, 235, 62, 0.8);
 }
-#menu li a,
-#menu li.active a{
+#menu li ,
+#menu li.active {
 	padding: 9px 18px;
-	display:block;
+
 }
 #menu li.active a{
 	color: #fff;
